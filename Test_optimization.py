@@ -56,7 +56,6 @@ for O, plot_label in [
            (O_hills_and_canyon, "Hills_and_canyon"),
            (O_two_minimums, "Bad_init")
         ]:
-    # result_probe = theano.function([Wprobe], O, givens=[(W, Wprobe)])
     #
     history = {}
     for method, history_mark, kwargs_to_method in cross_method_testsuit:
